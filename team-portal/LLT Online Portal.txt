@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Staff Online Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-6 shadow-lg">
+    <h1 class="text-2xl font-bold text-center">Staff Online Portal</h1>
+    <p class="text-center text-gray-200">Access all organisational forms in one place</p>
+  </header>
+
+  <!-- Main content -->
+  <main class="max-w-5xl mx-auto py-12 px-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <!-- HR -->
+    <a href="#" class="block bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-3 text-blue-800">HR Forms</h2>
+      <p class="text-gray-600">Leave requests, staff updates, recruitment forms.</p>
+    </a>
+
+    <!-- Admin -->
+    <a href="#" class="block bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-3 text-blue-800">Admin Forms</h2>
+      <p class="text-gray-600">Stationery requests, travel bookings, office resources.</p>
+    </a>
+
+    <!-- Finance -->
+    <a href="#" class="block bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-3 text-blue-800">Finance Forms</h2>
+      <p class="text-gray-600">Advance requests, settlements, reimbursements.</p>
+    </a>
+
+    <!-- Procurement -->
+    <a href="#" class="block bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-3 text-blue-800">Procurement Forms</h2>
+      <p class="text-gray-600">Purchase requests, supplier onboarding, quotations.</p>
+    </a>
+
+    <!-- Governance -->
+    <a href="#" class="block bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-3 text-blue-800">Governance Forms</h2>
+      <p class="text-gray-600">Board submissions, compliance, approvals.</p>
+    </a>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center p-4 mt-12">
+    <p class="text-sm">&copy; 2025 Organisation Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
